@@ -1,0 +1,80 @@
+CompilerOracle: exclude org/eclipse/jdt/internal/compiler/parser/TypeConverter.*
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /Users/yogesh-7138/Desktop/mail360_eclipse.app/Contents/MacOS/ZIDE/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://957.fwk1303187181:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://957.fwk1303187181:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+Aug 15, 2019 4:12:53 PM com.zoho.zide.activator.Activator start
+INFO: Starting the bundle
+Warning: NLS unused message: CreateServicePage_58 in: com.zoho.zide.properties.messages
+Warning: NLS unused message: REMOVING_LAUNCH_CONFIGURATION in: com.zoho.zide.properties.messages
+Warning: NLS unused message: UPDATE_ZIDE_SERVICEMENU in: com.zoho.zide.properties.messages
+Warning: NLS missing message: LISTCONFIGFILESPAGE_FILENAME in: com.zoho.zide.properties.messages
+Warning: NLS missing message: MOVING_DEPLOYMENT_FOLDER in: com.zoho.zide.properties.messages
+Aug 15, 2019 4:12:53 PM com.zoho.zide.activator.PluginStarter earlyStartup
+INFO: Plugin Starter called
+Aug 15, 2019 4:12:59 PM com.zoho.zide.util.UrlUtil sendRequest
+WARNING: Error occured while making connection , url http://zide.csez.zohocorpin.com/eclipse/audit/registration , reason java.net.UnknownHostException: zide.csez.zohocorpin.com
+Aug 15, 2019 4:12:59 PM com.zoho.zide.util.UrlUtil sendRequest
+WARNING: Error occured while making connection , url http://zide.csez.zohocorpin.com/eclipse/audit/accessaudit , reason java.net.UnknownHostException: zide.csez.zohocorpin.com
+Aug 15, 2019 4:13:00 PM com.aragost.javahg.log.JULLogger info
+INFO: Copy resource /javahg.py to /var/folders/g3/6f0pkkx13dvdtbcky4_jwkc5wcsr2t/T/1565865780184-0/javahg.py
+Aug 15, 2019 4:13:00 PM com.zoho.zide.logging.LoggingClient syncLog
+SEVERE: Unable to delete log file {1}
+java.lang.NullPointerException
+	at com.zoho.zide.logging.LoggingClient.syncLog(LoggingClient.java:100)
+	at com.zoho.zide.activator.PluginStarter.earlyStartup(PluginStarter.java:231)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+Aug 15, 2019 4:13:00 PM com.aragost.javahg.log.JULLogger info
+INFO: Command server started: /Users/yogesh-7138/Desktop/mail360_eclipse.app/Contents/MacOS/ZIDE/crm
+Aug 15, 2019 4:13:01 PM com.aragost.javahg.log.JULLogger info
+INFO: Command server started: /Users/yogesh-7138/Desktop/mail360_eclipse.app/Contents/MacOS/ZIDE/.zide/repository/codecheck
+Aug 15, 2019 4:13:01 PM com.aragost.javahg.log.JULLogger info
+INFO: Command server started: /Users/yogesh-7138/Desktop/mail360_eclipse.app/Contents/MacOS/ZIDE/zide
+Aug 15, 2019 4:13:01 PM com.aragost.javahg.log.JULLogger info
+INFO: runcommand(259ms) branch 
+Aug 15, 2019 4:13:03 PM com.aragost.javahg.log.JULLogger info
+INFO: runcommand(2386ms) status --modified --added --removed --deleted --unknown --clean 
+Aug 15, 2019 4:13:03 PM com.aragost.javahg.log.JULLogger info
+INFO: Random bytes generated: ~MC+:PU^/M$EEVLU_H/~
+Aug 15, 2019 4:13:03 PM com.aragost.javahg.log.JULLogger info
+INFO: Copy resource /styles/changesets.style to /var/folders/g3/6f0pkkx13dvdtbcky4_jwkc5wcsr2t/T/1565865780184-0/styles/changesets.style
+Aug 15, 2019 4:13:03 PM com.aragost.javahg.log.JULLogger info
+INFO: Copy resource /styles/changesets-eager.style to /var/folders/g3/6f0pkkx13dvdtbcky4_jwkc5wcsr2t/T/1565865780184-0/styles/changesets-eager.style
+Aug 15, 2019 4:13:03 PM com.aragost.javahg.log.JULLogger info
+INFO: runcommand(348ms) parents --debug --style /var/folders/g3/6f0pkkx13dvdtbcky4_jwkc5wcsr2t/T/1565865780184-0/styles/changesets.style 
+Aug 15, 2019 4:13:03 PM com.aragost.javahg.log.JULLogger info
+INFO: runcommand(3ms) branch 
+Aug 15, 2019 4:13:03 PM com.aragost.javahg.log.JULLogger info
+INFO: runcommand(120ms) resolve --list 
+Aug 15, 2019 4:13:29 PM com.aragost.javahg.log.JULLogger info
+INFO: runcommand(28108ms) pull --debug -y https://***@cmsuite.csez.zohocorpin.com/eclipse/zide 
+Aug 15, 2019 4:13:29 PM com.aragost.javahg.log.JULLogger info
+INFO: runcommand(28545ms) pull --debug -y https://***@cmsuite.csez.zohocorpin.com/integ//codecheck 
+Aug 15, 2019 4:13:34 PM com.aragost.javahg.log.JULLogger info
+INFO: Command server stopped: /Users/yogesh-7138/Desktop/mail360_eclipse.app/Contents/MacOS/ZIDE/crm
+Aug 15, 2019 4:14:00 PM com.aragost.javahg.log.JULLogger info
+INFO: Command server stopped: /Users/yogesh-7138/Desktop/mail360_eclipse.app/Contents/MacOS/ZIDE/.zide/repository/codecheck
+Aug 15, 2019 4:14:00 PM com.aragost.javahg.log.JULLogger info
+INFO: Command server stopped: /Users/yogesh-7138/Desktop/mail360_eclipse.app/Contents/MacOS/ZIDE/zide
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::decodeType2
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::createTypeReference
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::decodeType3
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::createImportReference
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::decodeType
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::createTypeReference
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::decodeTypeArguments
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::addIdentifiers
+### Excluding compile: org.eclipse.jdt.internal.compiler.parser.TypeConverter::decodeTypeArguments
+Aug 15, 2019 4:54:08 PM com.zoho.zide.activator.Activator stop
+INFO: Stopping the bundle
+***WARNING: Display must be created on main thread due to Cocoa restrictions.
+***WARNING: Display must be created on main thread due to Cocoa restrictions.
